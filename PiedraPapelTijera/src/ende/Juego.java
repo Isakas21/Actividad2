@@ -28,11 +28,11 @@ class Jugador {
 		return opcion;
 	}
 
-	public void setÉxitos() {
+	public void setExitos() {
 		exitos++;
 	}
 
-	public int getÉxitos() {
+	public int getExitos() {
 		return (exitos);
 	}
 }
