@@ -16,7 +16,7 @@ public class Juego {
 		String opcion_JUGADOR1, opcion_JUGADOR2;
 
 		// Bucle de juego
-		do {
+		while (fin_de_juego != true) {
 			System.out.println("***** Ronda: " + Rondasjugadas + " *********************\n");
 			System.out.println("Numero de empates: " + EmPaTeS + "\n");
 			opcion_JUGADOR1 = p1.opcion_al_azar();
@@ -55,7 +55,6 @@ public class Juego {
 			}
 			System.out.println();
 		}
-		while (fin_de_juego != true);
 	}
 }
 
